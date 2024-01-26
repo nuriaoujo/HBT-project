@@ -224,6 +224,34 @@ p {
     color: #fff;
 }
 
+/* Testimonials */
+#testimonials {
+    background: url('../img/img-1.jpg') no-repeat center center/cover;
+    height: 600px;
+    padding-top: 40px;
+}
+
+#testimonials h2 {
+    color: #fff;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+#testimonials .testimonial {
+    border-radius: 5px;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+#testimonials .testimonial img {
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
 /* Footer */
 #main-footer {
     background-color: #445069;
