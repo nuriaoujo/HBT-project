@@ -240,7 +240,7 @@ p {
 #testimonials .testimonial {
     border-radius: 5px;
     margin-bottom: 40px;
-    padding: 20px;
+    padding: 20px 20px 40px 20px;
 }
 
 #testimonials .testimonial img {
