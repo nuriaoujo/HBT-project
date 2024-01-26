@@ -40,6 +40,41 @@ p {
     font-size: 20px;
 }
 
+.btn {
+    background: #252B48;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    padding: 13px 20px;
+}
+
+.btn:hover {
+    background: #445069;
+    color: #F7E987;
+}
+
+.btn-light {
+    background: #f4f4f4;
+    color: #252B48;
+}
+
+.bg-dark {
+    background: #252B48;
+    color: #fff;
+}
+
+.bg-light {
+    background: #f4f4f4;
+    color: #252B48;
+}
+
+.bg-primary {
+    background-color: #252B48;
+    color: #F7E987;
+}
+
 /* Navbar */
 #navbar {
     background-color: #252B48;
@@ -99,4 +134,30 @@ p {
 #showcase .showcase-content p {
     padding-bottom: 20px;
     line-height: 1.7em;
+}
+
+/* Home Info */
+#home-info {
+    height: 400px;
+}
+
+#home-info .info-img {
+    float:left;
+    width: 50%;
+    background: url('../img/img-5.jpg') center center no-repeat;
+    background-size: cover;
+    min-height: 100%;
+}
+
+#home-info .info-content {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+
+#home-info .info-content p {
+    padding-bottom: 30px;
 }
