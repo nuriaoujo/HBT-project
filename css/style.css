@@ -71,8 +71,8 @@ p {
 }
 
 .bg-primary {
-    background-color: #252B48;
-    color: #F7E987;
+    background-color: #F7E987;
+    color: #252B48;
 }
 
 /* Navbar */
@@ -115,7 +115,7 @@ p {
 /* Showcase */
 #showcase {
     background: 
-    linear-gradient(to bottom, #445069c5, #5b9a8b69),
+    linear-gradient(to bottom, #445069c5, #5b9a8b98),
     url('../img/img-2.jpg') no-repeat center center/cover;
     height: 600px;   
 }
@@ -151,13 +151,25 @@ p {
 
 #home-info .info-content {
     float: right;
-    width: 50%;
     height: 100%;
-    text-align: center;
-    padding: 50px 30px;
     overflow: hidden;
+    padding: 50px 30px;
+    text-align: center;
+    width: 50%;
 }
 
 #home-info .info-content p {
     padding-bottom: 30px;
+}
+
+/* Features */
+.box {
+    float: left;
+    padding: 50px;
+    text-align: center;
+    width: 33.3%;
+}
+
+.box i {
+    margin-bottom: 10px;
 }
