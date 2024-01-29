@@ -9,7 +9,17 @@
 
 #navbar ul li a {
     padding: 5px;
-    border-bottom: #444 dotted 1px;
+    border-bottom: #445069 dotted 1px;
+}
+
+/* Showcase */
+#showcase {
+    height: 100%;
+}
+
+#showcase .showcase-content {
+    padding-top: 70px;
+    padding-bottom: 30px;
 }
 
 /* Home Info */
@@ -42,4 +52,9 @@
 
 .l-heading {
     text-align: center;
+}
+
+/* Contact */
+#contact-info .box {
+    border-bottom: #445069 dotted 1px;
 }
